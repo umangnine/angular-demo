@@ -7,6 +7,9 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   items = ['Angular4', 'Reacts', 'Underscore'];
+  name = 'Darshan';
+  day = new Date(1993,10,28);
+  arr = [3, 7, 8, 5, 6, 1, 2];
   newItem = '';
   pushItem = function() {
     if (this.newItem !== '') {
